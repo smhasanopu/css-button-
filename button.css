@@ -1,0 +1,36 @@
+.class-name button {
+    width: 300px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 1px solid #2b285d;
+    background: transparent;
+    border-radius: 35px;
+    cursor: pointer;
+    color: #2b285d;
+    font-size: 16pt;
+    position: relative;
+    z-index: 10;
+}
+
+.class-name span{
+    background: #009688;
+    width: 0;
+    height: 100%;
+    border-radius: 35px;
+    overflow: hidden;
+     position:absolute; 
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+    color: #fff;
+}
+.class-name button:hover span{
+    width: 100%;
+}
+.class-name button:hover{
+    color: #fff;
+    border: 1px solid #087979;
+}  
